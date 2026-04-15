@@ -39,8 +39,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with: 
-        working-directory: ./mf-evaluator/dist
+        with:
+          path: ./mf-evaluator/dist
 
   deploy:
     environment:
